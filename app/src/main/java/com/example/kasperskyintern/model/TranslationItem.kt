@@ -1,4 +1,4 @@
-package com.example.kasperskyintern
+package com.example.kasperskyintern.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,13 +1,6 @@
-package com.example.kasperskyintern
+package com.example.kasperskyintern.model
 
-data class Response (
-    val id       : Int?                = null,
-    val text     : String?             = null,
-    val meanings : ArrayList<Meanings> = arrayListOf()
-)
-
-data class Meanings (
-
+data class Meaning (
     val id               : Int?         = null,
     val partOfSpeechCode : String?      = null,
     val translation      : Translation? = null,
@@ -15,10 +8,4 @@ data class Meanings (
     val imageUrl         : String?      = null,
     val transcription    : String?      = null,
     val soundUrl         : String?      = null
-
-)
-
-data class Translation (
-    val text : String? = null,
-    val note : String? = null
 )

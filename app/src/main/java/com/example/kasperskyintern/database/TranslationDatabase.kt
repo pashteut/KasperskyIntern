@@ -1,9 +1,10 @@
-package com.example.kasperskyintern
+package com.example.kasperskyintern.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.kasperskyintern.model.TranslationItem
 
 @Database(entities = [TranslationItem::class], version = 1)
 abstract class TranslationDatabase :RoomDatabase() {

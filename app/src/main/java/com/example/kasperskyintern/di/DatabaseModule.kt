@@ -1,6 +1,7 @@
-package com.example.kasperskyintern
+package com.example.kasperskyintern.di
 
 import android.content.Context
+import com.example.kasperskyintern.database.TranslationDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

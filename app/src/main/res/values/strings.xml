@@ -1,5 +1,12 @@
 <resources>
-	<string name="app_name">Kaspersky intern</string>
-	<!-- TODO: Remove or change this placeholder text -->
-	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="app_name" translatable="false">Kaspersky intern</string>
+	<string name="favourites">Favourites</string>
+	<string name="clearFavourites">There is nothing in favourites</string>
+	<string name="english">English</string>
+	<string name="russian">Russian</string>
+	<string name="enterText">Enter the text</string>
+	<string name="recentTranslations">Recent translations</string>
+	<string name="clearHistoryDialogTitle">Clear the history?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
 </resources>

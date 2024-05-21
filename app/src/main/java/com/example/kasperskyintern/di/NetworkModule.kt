@@ -1,4 +1,4 @@
-package com.example.kasperskyintern
+package com.example.kasperskyintern.di
 
 import dagger.Module
 import dagger.Provides

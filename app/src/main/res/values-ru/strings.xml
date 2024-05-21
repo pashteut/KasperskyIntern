@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="favourites">Избранное</string>
+	<string name="clearFavourites">В избранном ничего нет</string>
+	<string name="english">Английский</string>
+	<string name="russian">Русский</string>
+	<string name="enterText">Введите текст</string>
+	<string name="recentTranslations">Недавние переводы</string>
+	<string name="clearHistoryDialogTitle">Очистить историю?</string>
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>
+</resources>
