@@ -10,7 +10,11 @@ class TranslationAdapter(
 ) : ListAdapter<TranslationItem, TranslationVH>(TranslationDiffItemCallback()){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
-        TranslationVH(TranslationVH.inflateFrom(parent), onFavouritesButtonClick, onDeleteButtonClick)
+        TranslationVH(
+            TranslationVH.inflateFrom(parent),
+            onFavouritesButtonClick,
+            onDeleteButtonClick
+        )
 
     override fun onBindViewHolder(holder: TranslationVH, position: Int) {
         holder.bind(getItem(position))

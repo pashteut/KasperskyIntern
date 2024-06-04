@@ -18,7 +18,7 @@ import javax.inject.Inject
 class MainFragmentViewModel @Inject constructor(
     private val client: HttpClient,
     private val dao: TranslationDAO
-) : ViewModel(), FavouritesManager by FavouriteManagerImpl(dao) {
+) : ViewModel(), FavouritesManager by FavouritesManagerImpl(dao) {
     val text = MutableStateFlow("")
     val translationHistory = dao.getAllReversed()
     private val _translation = MutableStateFlow("")

@@ -17,16 +17,9 @@
 		tools:context=".ui.MainFragment">
 
 		<com.google.android.material.appbar.AppBarLayout
+			android:id="@+id/appBarLayout"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content">
-
-<!--			<com.google.android.material.appbar.CollapsingToolbarLayout-->
-<!--				android:id="@+id/collapsingToolbarLayout"-->
-<!--				android:layout_width="match_parent"-->
-<!--				android:layout_height="wrap_content"-->
-<!--				app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
-<!--				app:contentScrim="@android:color/transparent"-->
-<!--				app:statusBarScrim="@android:color/transparent">-->
 
 				<androidx.constraintlayout.widget.ConstraintLayout
 					android:layout_width="match_parent"
@@ -145,6 +138,7 @@
 									android:hint="@string/enterText"
 									android:gravity="top"
 									android:background="@null"
+									android:inputType="textCapSentences|textAutoCorrect"
 									app:layout_constraintTop_toTopOf="parent"
 									app:layout_constraintBottom_toBottomOf="parent"
 									app:layout_constraintStart_toStartOf="parent"
@@ -192,8 +186,6 @@
 
 				</androidx.constraintlayout.widget.ConstraintLayout>
 
-<!--			</com.google.android.material.appbar.CollapsingToolbarLayout>-->
-
 			<com.google.android.material.appbar.MaterialToolbar
 				android:id="@+id/historyToolbar"
 				android:layout_width="match_parent"
@@ -234,4 +226,5 @@
 			app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
 	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
 </layout>

@@ -7,6 +7,6 @@ import javax.inject.Inject
 
 @HiltViewModel
 class FavouritesFragmentViewModel @Inject constructor(private val dao: TranslationDAO)
-    : ViewModel(), FavouritesManager by FavouriteManagerImpl(dao) {
+    : ViewModel(), FavouritesManager by FavouritesManagerImpl(dao) {
     val favouriteTranslationHistory = dao.getAllFavouritesReversed()
 }
